@@ -1,0 +1,103 @@
+
+style {  font-family: 'Comic Sans MS', cursive, sans-serif;
+      margin: 0;
+      padding: 0;
+      border: 2px solid black;
+      box-sizing: border-box;
+    }
+  
+
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px;
+      border-bottom: 2px solid black;
+    }
+
+    .logo {
+      width: 10px;
+      height: 10px;
+      background: black;
+      display: inline-block;
+      margin-right: 4px;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: black;
+      margin: 0 10px;
+      
+    }
+
+    main {
+      text-align: center;
+      padding: 30px 0;
+      border-bottom: 2px solid black;
+    }
+
+    main h1 {
+      font-size: 2em;
+      margin-bottom: 5px;
+    }
+
+    main p {
+      color: gray;
+      font-size: 14px;
+    }
+
+    section {
+      display: flex;
+      border-bottom: 2px solid black;
+    }
+
+    .projects, .work, .education {
+      flex: 1;
+      padding: 20px;
+      border-right: 2px solid black;
+    }
+
+    .education {
+      border-right: none;
+    }
+
+    .projects div {
+      border: 1px solid black;
+      padding: 10px;
+      margin-bottom: 10px;
+    }
+
+    .reviews {
+      padding: 20px;
+    }
+
+    .reviews h3 {
+      font-weight: bold;
+      margin-bottom: 15px;
+    }
+
+    .review-boxes {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+    }
+
+    .review {
+      border: 2px solid black;
+      border-radius: 20px;
+      width: 250px;
+      padding: 15px;
+      margin: 10px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 15px;
+      font-size: 14px;
+      border-top: 2px solid black;
+    }
+
+    a {
+      color: blue;
+    }
+  
